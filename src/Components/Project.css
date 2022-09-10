@@ -9,7 +9,6 @@
 
 .projectDiv {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: rgba(246, 245, 243, 0.61);
   display: flex;
   flex-direction: column;
   flex-basis: 100%;

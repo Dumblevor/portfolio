@@ -1,40 +1,28 @@
 import React from "react"
 import Navbar from "./components/Navbar"
-// import logo from './logo.svg';
-// import './App.css';
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Landing from "./components/Landing";
+import P2Readme from "./components/readmes/P2Readme";
 
 
 function App() {
   return (
     <div>
       <Router>
+        <Navbar />
         <Routes>
-          <Route parth="/" element={<Landing/ >} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/p2readme" element={<P2Readme />} />
 
         </Routes>
       </Router>
+
       <footer>
         <p>Footer</p>
       </footer>
     </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+
   );
 }
 

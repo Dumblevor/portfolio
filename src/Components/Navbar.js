@@ -14,7 +14,7 @@ function Navbar() {
           </Link>
 
           <a href="#section2" className="navlink left">
-            background
+            about
           </a>
           <a href="#section3" className="navlink left">
             contact
@@ -22,7 +22,6 @@ function Navbar() {
         </div>
 
         <div className="rightDiv">
-
           <a className="navlink" href="https://linkedin.com">
             <img className="link--logo-image" alt="linkedin logo" src="https://brand.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" />
           </a>
@@ -30,12 +29,10 @@ function Navbar() {
           <a className="navlink" href="https://github.com">
             <img className="link--logo-image" src="https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg" alt="github logo" />
           </a>
-
         </div>
+      </header>
 
-      </header >
-
-    </div >
+    </div>
   )
 }
 

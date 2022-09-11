@@ -1,6 +1,6 @@
 import React from "react"
-import { Link, NavLink } from "react-router-dom"
-import './Navbar.css';
+import { Link } from "react-router-dom"
+import "./Navbar.css";
 
 
 function Navbar() {
@@ -9,13 +9,13 @@ function Navbar() {
 
   return (
     <div>
-      <h1>Dimitar Vidolov's portfolio</h1>
+      <h1>Dimitar Vidolov&apos;s portfolio</h1>
       <header className="headerStyle">
         <div className="leftDiv">
           <Link className="navlink logo" to="/"> &lt; DV &gt;
             {/* <img className="logo-image" src="" /> */}
           </Link>
-{/* 
+          {/* 
           <a href="#section2" className="navlink left">
             about
           </a>
@@ -25,7 +25,7 @@ function Navbar() {
         </div>
 
         <div className="rightDiv">
-        <a className="navlink link--logo-image mail" href={`mailto:${emailAddress}`}>✉️</a>
+          <a className="navlink link--logo-image mail" href={`mailto:${emailAddress}`}>✉️</a>
           <a className="navlink" href="https://www.linkedin.com/in/dvidolov/">
             <img className="link--logo-image" alt="linkedin logo" src="https://brand.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" />
           </a>

@@ -5,7 +5,7 @@ function Project(props) {
 
   return (
     <div className="projectDiv" key={props.name}>
-      <a href={props.deploymentLink} className="titlelink">
+      <a href={props.repoLink} className="titlelink">
         <h3 className="projectH3">{props.name}</h3>
         <h4>{props.type}</h4>
       </a>
@@ -14,6 +14,7 @@ function Project(props) {
         <img className="projectScreen" src={props.screen} alt={`${props.name} screen `} />
 
         <div className="right-handside-content">
+          <p>{props.description}</p>
           <div className="buttonGroup">
 
             <a href={props.deploymentLink} className="productionButton button">
@@ -24,7 +25,7 @@ function Project(props) {
               Repo / ReadMe &gt;
             </a>
           </div>
-          <p>{props.description}</p>
+
 
 
 

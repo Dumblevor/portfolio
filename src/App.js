@@ -14,7 +14,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/p2readme" element={<P2Readme />} />
-
         </Routes>
       </Router>
 

@@ -4,7 +4,6 @@ import "./Navbar.css";
 
 
 function Navbar() {
-
   const emailAddress = "dimitar.vidolov@gmail.com"
 
   return (

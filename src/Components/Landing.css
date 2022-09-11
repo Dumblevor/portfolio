@@ -88,6 +88,9 @@ section {
 footer {
   font-family: 'Overpass', sans-serif;
   margin: 1em;
+  filter: grayscale(85%);
+  font-weight: 600;
+  color: gray;
 }
 
 @media only screen and (max-width: 780px) {
@@ -103,7 +106,10 @@ footer {
     margin-bottom: 2em;
 
   }
-
+  .avatar-image {
+float: right;
+margin-bottom: 1em;
+  }
   .aboutP {
     margin: 0em;
   }

@@ -6,7 +6,7 @@ const projectsData = [
     logoLink: "",
     description: "An app store inspired by App Sumo.",
     deploymentLink: "https://firesell2.netlify.app",
-    repoLink: "",
+    repoLink: "https://github.com/Dumblevor/firesell_front",
     screen: "https://github.com/Dumblevor/firesell_front/raw/main/readme_assets/preview-screen.png",
     id: 4,
   },

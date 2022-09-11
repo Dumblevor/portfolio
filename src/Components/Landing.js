@@ -10,16 +10,20 @@ function Landing() {
     <div className="landingPage">
       <section id="section0">
         <div className="avatar">
+          <img className="avatar-image" src="https://avatars.githubusercontent.com/u/100156884?v=4" alt="dimitar vidolov's logo" />
+
           <div className="avatar-text">
-            <h3>Hi, I&apos;m Dimitar Vidolov</h3>
-            <h4>I like tinkering with software and kitesurfing.<br />
-              Recently, I graduated General Assembly&apos;s Immersive Software Engineering bootcamp, where I built some projects you can see below.
+            <h2>Hi, I&apos;m Dimitar Vidolov</h2>
+            <h4>I like tinkering with software and kitesurfing.
+              Recently, I graduated General Assembly&apos;s 
+              Immersive Software Engineering bootcamp,
+              where I built some projects you can see below.
             </h4>
-            <p className="aboutP">Driven full-stack software engineer with a passion for building products with a great user experience.
-              Continually learning and exploring new technologies, to challenge myself and to deliver better value for the user. My background in hospitality, food production and teaching kitesurf provide a unique blend of perspectives that enhance my work.
+            <p>Driven as a software engineer with a passion for building user focused products. <br/>
+              My background in hospitality and food production provide a unique blend
+              of perspectives that enhance my work.
             </p>
           </div>
-          <img className="avatar-image" src="https://avatars.githubusercontent.com/u/100156884?v=4" alt="dimitar vidolov's logo" />
 
         </div>
       </section>

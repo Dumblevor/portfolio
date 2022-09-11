@@ -12,18 +12,26 @@ function Project(props) {
 
       <div className="contentBlock">
         <img className="projectScreen" src={props.screen} alt={`${props.name} screen `} />
-        <p>{props.description}</p>
+
+        <div className="right-handside-content">
+          <div className="buttonGroup">
+
+            <a href={props.deploymentLink} className="productionButton button">
+              Live &gt;
+            </a>
+
+            <a href={props.repoLink} className="repoButton button">
+              Repo / ReadMe &gt;
+            </a>
+          </div>
+          <p>{props.description}</p>
+
+
+
+        </div>
       </div>
 
-      <div className="buttonGroup">
-        <a href={props.deploymentLink} className="productionButton button">
-          Live &gt;
 
-        </a>
-        <a href={props.repoLink} className="repoButton button">
-          Repo / ReadMe &gt;
-        </a>
-      </div>
 
     </div >
 

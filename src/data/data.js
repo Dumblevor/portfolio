@@ -4,34 +4,31 @@ const projectsData = [
     name: "Project 4: Firesell | @ General Assembly",
     type: "App Store",
     logoLink: "",
-    description: "",
-    deploymentLink: "",
+    description: "An app store inspired by App Sumo.",
+    deploymentLink: "https://firesell2.netlify.app",
     repoLink: "",
-    screen: "",
+    screen: "https://github.com/Dumblevor/firesell_front/raw/main/readme_assets/preview-screen.png",
     id: 4,
-    localreadme: ""
   },
   {
     name: "Project 3: Hackertrees | @ General Assembly",
     type: "Professional Social Network",
     logoLink: "",
-    description: "",
-    deploymentLink: "",
-    repoLink: "",
-    screen: "",
+    description: "A more private social professional network, nspired by teamblind.com",
+    deploymentLink: "https://hackertrees.netlify.app",
+    repoLink: "https://github.com/Dumblevor/hackertrees_front",
+    screen: "https://github.com/Dumblevor/hackertrees_front/raw/main/readme-assets/preview-screen.png",
     id: 3,
-    localreadme: ""
   },
   {
     name: "Project 1: Invaders 23 | @ General Assembly",
     type: "Online Game",
     logoLink: "",
-    description: "",
-    deploymentLink: "",
-    repoLink: "",
-    screen: "",
+    description: "Web based vanilla JavaScript game, inspired by the classic Space Invaders.",
+    deploymentLink: "https://dumblevor.github.io/spce_inv1/",
+    repoLink: "https://github.com/Dumblevor/spce_inv1",
+    screen: "https://github.com/Dumblevor/spce_inv1/blob/34e26d91997b1ea4b72c8c06981f88b71e2bcdc3/readme-assets/Gameplay_screen_1.png?raw=true",
     id: 1,
-    localreadme: ""
   },
   {
     name: "Project 2 | @ General Assembly",
@@ -42,8 +39,7 @@ const projectsData = [
     repoLink: "https://github.com/Dumblevor/project-2",
     screen: "https://github.com/Dumblevor/project-2/blob/main/readme_assets/preview_for_readme.png?raw=true",
     id: 2,
-    localreadme: "/p2readme"
-  },
+  }
 ]
 
 export default projectsData

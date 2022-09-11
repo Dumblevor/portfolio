@@ -21,6 +21,7 @@ p {
   font-family: 'Overpass', sans-serif;
   margin: 1em;
   padding: 1em;
+  margin-top:2em;
   margin-left: 5em;
   max-width: 85%;
 }
@@ -72,7 +73,6 @@ section {
   max-width: 80%;
   font-size: 2em;
   border-bottom: 2px solid rgb(196, 0, 0);
-
 }
 
 .avatar-text {

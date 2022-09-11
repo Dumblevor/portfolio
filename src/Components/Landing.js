@@ -1,6 +1,5 @@
 import React from "react"
-import { NavLink } from "react-router-dom"
-import './Landing.css';
+import "./Landing.css";
 import projectsData from "../data/data";
 import Project from "./Project";
 
@@ -12,9 +11,9 @@ function Landing() {
       <section id="section0">
         <div className="avatar">
           <div className="avatar-text">
-            <h3>Hi, I'm Dimitar Vidolov</h3>
+            <h3>Hi, I&apos;m Dimitar Vidolov</h3>
             <h4>I like tinkering with software and kitesurfing.<br />
-              Recently, I graduated General Assembly's Immersive Software Engineering bootcamp, where I built some projects you can see below.
+              Recently, I graduated General Assembly&apos;s Immersive Software Engineering bootcamp, where I built some projects you can see below.
             </h4>
             <p className="aboutP">Driven full-stack software engineer with a passion for building products with a great user experience.
               Continually learning and exploring new technologies, to challenge myself and to deliver better value for the user. My background in hospitality, food production and teaching kitesurf provide a unique blend of perspectives that enhance my work.

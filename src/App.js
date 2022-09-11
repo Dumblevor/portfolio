@@ -1,6 +1,6 @@
-import React from "react"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import Navbar from "./components/Navbar"
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import P2Readme from "./components/readmes/P2Readme";
 

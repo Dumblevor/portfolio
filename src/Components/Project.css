@@ -17,6 +17,7 @@
   box-shadow: 0.5em 0.5em lightgray;
   max-width: 75%;
   background-color: white;
+  border-top: 5px solid blue;
 }
 
 .projectH3 {

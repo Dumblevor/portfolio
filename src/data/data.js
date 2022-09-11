@@ -37,7 +37,7 @@ const projectsData = [
     name: "Project 2 | @ General Assembly",
     type: "3rd party API consumption",
     logoLink: "https://rick-and-morty-randomizer.netlify.app/static/media/RandomMORTY-2.d921ccb5adfe56b82ccb.gif",
-    description: "My partner and I chose a Rick and Morty API whereas our site would request and display a random character dependant on the user gender selection.",
+    description: "Used a Rick and Morty API whereas our site would request and display a random character dependant on the user gender selection.",
     deploymentLink: "https://rick-and-morty-randomizer.netlify.app",
     repoLink: "https://github.com/Dumblevor/project-2",
     screen: "https://github.com/Dumblevor/project-2/blob/main/readme_assets/preview_for_readme.png?raw=true",

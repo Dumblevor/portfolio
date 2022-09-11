@@ -24,21 +24,26 @@
 
 .rightDiv {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-
 }
 
 .navlink {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Overpass', sans-serif;
   color: rgb(0, 0, 0);
   font-size: 1.5em;
-  padding: 0.5em;
+  margin: 1em;
   text-decoration: none;
 }
 
 .link--logo-image {
   width: 1.5em;
   filter: grayscale(100%);
+}
+
+.mail {
+  text-align: center;
+
 }
 
 .left {
@@ -57,13 +62,10 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-  .navlink {
-    font-size: 1em;
-  }
+
 
   .headerStyle {
-    width: 80%;
+    width: 100%;
   }
 
-
-  }
+}

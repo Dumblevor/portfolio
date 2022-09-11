@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .landingPage {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Overpass', sans-serif;
   margin-top: 3em;
   display: flex;
   flex-direction: column;
@@ -9,8 +9,8 @@
   align-items: center;
   background-color: rgb(255, 255, 255);
   color: rgb(60, 60, 60);
-  letter-spacing: 3px;
-  line-height: 1.5;
+  letter-spacing: 2.5px;
+  line-height: 1.3;
 }
 p {
   font-size: 19px;
@@ -18,7 +18,7 @@ p {
 .avatar {
   display: flex;
   justify-content:space-around;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Overpass', sans-serif;
   margin: 1em;
   padding: 1em;
   margin-left: 5em;
@@ -52,7 +52,13 @@ p {
   border-right: 2px solid red;
   border-end-end-radius: 1px;
   height: 250px;
+  margin-right: 5px;
 }
+
+.avatar-image:hover {
+  box-shadow: 10px 10px 10px rgb(126, 126, 126);
+}
+
 
 section {
   background-color: rgb(255, 255, 255);
@@ -60,7 +66,9 @@ section {
 }
 
 .latestProjectsH3 {
+  padding-top: 1em;
   margin: auto;
+  color: white;
   max-width: 80%;
   font-size: 2em;
   border-bottom: 2px solid rgb(196, 0, 0);
@@ -73,13 +81,27 @@ section {
 
 }
 
+#section1 {
+  background-color: rgb(22,	28,	56)	;
+}
 
-
+footer {
+  font-family: 'Overpass', sans-serif;
+  margin: 1em;
+}
 
 @media only screen and (max-width: 780px) {
 
   .avatar {
-    display: block;
+    display:block;
+    max-width: 100%;
+  }
+
+  .avatar-text {
+    max-width: 100%;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 2em;
+
   }
 
   .aboutP {

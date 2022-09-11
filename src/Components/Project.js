@@ -6,7 +6,7 @@ function Project(props) {
 
   return (
     <div className="projectDiv" key={props.name}>
-      <h3>{props.name}</h3>
+      <h3 className="projectH3">{props.name}</h3>
       <h4>{props.type}</h4>
       <div className="contentBlock">
         <img className="projectScreen" src={props.screen} alt={`${props.name} screen `} />

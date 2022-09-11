@@ -19,7 +19,8 @@ function App() {
       </Router>
 
       <footer>
-        <p>Footer</p>
+        <p>Reach me on <a className="" href="https://linkedin.com"> LinkedIn</a> or send me an <a className=" link--logo-image mail" href="mailto:dimitar.vidolov@gmail.com">email</a>.
+        </p>
       </footer>
     </div>
 

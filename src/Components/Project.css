@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .projectScreen {
   max-width: 35%;
@@ -8,21 +7,24 @@
 }
 
 .projectDiv {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Overpass', sans-serif;
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex-wrap: wrap;
   border-radius: 1em;
   padding: 1em;
-  box-shadow: 0.5em 0.5em;
+  box-shadow: 0.5em 0.5em lightgray;
   max-width: 75%;
+  background-color: white;
+}
 
+.projectH3 {
+  border-bottom: 3px double rgb(255, 136, 0);
 }
 
 .projectDiv:hover {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 1em 1em 1em lightslategray;
+  box-shadow: 0.5em 0.5em 10em rgba(255, 255, 255, 0.871);
 }
 
 
@@ -52,6 +54,8 @@
 .contentBlock {
   display: flex;
   flex-direction: row;
+  letter-spacing: 2px;
+  line-height: 1.1;
 }
 
 

@@ -14,7 +14,7 @@ const projectsData = [
     name: "Project 3: Hackertrees | @ General Assembly",
     type: "Professional Social Network",
     logoLink: "",
-    description: "A more private social professional network, nspired by teamblind.com.  The assignment was to create a full-stack website with React and Node.js. The project was to be completed in a group within 6 days over 2 weeks.",
+    description: "A more private social professional network, nspired by teamblind.com. The assignment was to create a full-stack website with React and Node.js. The project was to be completed in a group within 6 days over 2 weeks.",
     deploymentLink: "https://hackertrees.netlify.app",
     repoLink: "https://github.com/Dumblevor/hackertrees_front",
     screen: "https://github.com/Dumblevor/hackertrees_front/raw/main/readme-assets/preview-screen.png",

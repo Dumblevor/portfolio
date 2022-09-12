@@ -99,6 +99,25 @@ footer {
   font-size: 20px;
 }
 
+.skills {
+  max-height: 3em;
+  margin: 2em;
+  margin-right: 5em;
+
+}
+
+.techSkillsDiv {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  filter: grayscale(100%)
+}
+
 @media only screen and (max-width: 1200px) {
 
   .avatar {
@@ -121,5 +140,10 @@ footer {
 
   .aboutP {
     margin: 0em;
+  }
+  .skills {
+  max-height: 2em;
+  margin: 1.5em;
+  margin-right: 0em;
   }
 }

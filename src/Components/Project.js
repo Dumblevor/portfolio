@@ -5,7 +5,7 @@ function Project(props) {
 
   return (
     <div className="projectDiv" key={props.name}>
-      <a href={props.repoLink} className="titlelink">
+      <a href={props.repoLink} className="titlelink" target="_blank" rel="noopener noreferrer">
         <h3 className="projectH3">{props.name}</h3>
         <h4>{props.type}</h4>
       </a>
@@ -17,11 +17,11 @@ function Project(props) {
           <p>{props.description}</p>
           <div className="buttonGroup">
 
-            <a href={props.deploymentLink} className="productionButton button">
+            <a href={props.deploymentLink} className="productionButton button" target="_blank" rel="noopener noreferrer">
               Live &gt;
             </a>
 
-            <a href={props.repoLink} className="repoButton button">
+            <a href={props.repoLink} className="repoButton button" target="_blank" rel="noopener noreferrer">
               Repo / ReadMe &gt;
             </a>
           </div>

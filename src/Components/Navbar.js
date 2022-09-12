@@ -25,10 +25,10 @@ function Navbar() {
 
         <div className="rightDiv">
           <a className="navlink link--logo-image mail" href={`mailto:${emailAddress}`}>✉️</a>
-          <a className="navlink" href="https://www.linkedin.com/in/dvidolov/">
+          <a className="navlink" href="https://www.linkedin.com/in/dvidolov/"  target="_blank" rel="noopener noreferrer">
             <img className="link--logo-image" alt="linkedin logo" src="https://brand.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" />
           </a>
-          <a className="navlink" href="https://github.com/Dumblevor">
+          <a className="navlink" href="https://github.com/Dumblevor"  target="_blank" rel="noopener noreferrer">
             <img className="link--logo-image" src="https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg" alt="github logo" />
           </a>
         </div>

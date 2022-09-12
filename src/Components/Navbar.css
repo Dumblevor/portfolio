@@ -3,7 +3,7 @@
 .headerStyle {
   display: flex;
   flex-direction: row;
-  background-color:  rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   align-items: center;
   justify-content: space-between;
   position: fixed;
@@ -39,6 +39,7 @@
   text-decoration: none;
 }
 
+
 .link--logo-image {
   width: 1.5em;
   filter: grayscale(100%);
@@ -49,6 +50,7 @@
   font-size: 2em;
 }
 
+
 .left {
   border-right: 0.05em solid rgb(6, 165, 6);
 }
@@ -56,7 +58,7 @@
 h1 {
   font-size: 0.5em;
   padding-left: 2em;
-  background-color: rgba(246 245 243);
+  background-color: rgb(82, 79, 72);
   color: rgb(51, 51, 51);
 }
 

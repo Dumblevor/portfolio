@@ -38,7 +38,7 @@ p {
 }
 
 .projectDiv:hover {
-  box-shadow: 1em 1em 0.5em rgb(222, 222, 222);
+  box-shadow: 10px 10px 35px gray ;
 }
 
 

@@ -3,7 +3,7 @@
 .headerStyle {
   display: flex;
   flex-direction: row;
-  background-color: rgb(23, 0, 0);
+  background-color: rgb(255, 255, 255);
   align-items: center;
   justify-content: space-between;
   position: fixed;
@@ -12,6 +12,7 @@
   border-bottom-right-radius: 5px;
   box-shadow: 2px 2px 3px grey;
   z-index: 4;
+
 }
 
 .logo-image {

@@ -103,7 +103,6 @@ footer {
   max-height: 3em;
   margin: 2em;
   margin-right: 5em;
-  z-index: 2;
   -webkit-filter: grayscale(1);
   /* Webkit */
   filter: gray;
@@ -120,8 +119,6 @@ footer {
   justify-content: space-evenly;
   justify-items: center;
   align-items: center;
-  z-index: 1;
-
 }
 
 @media only screen and (max-width: 1200px) {

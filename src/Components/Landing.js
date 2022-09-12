@@ -2,14 +2,18 @@ import React from "react"
 import "./Landing.css";
 import projectsData from "../data/data";
 import Project from "./Project";
-
+import coverArt from "../assets/coverArt.png"
 
 function Landing() {
 
   return (<>
     <div className="landingPage">
+      <img className="coverart" alt="coverart" src={coverArt} />
+
       <section id="section0">
+
         <div className="avatar">
+
           <img className="avatar-image" src="https://avatars.githubusercontent.com/u/100156884?v=4" alt="dimitar vidolov's logo" />
 
           <div className="avatar-text">
@@ -26,7 +30,8 @@ function Landing() {
             </p>
           </div>
         </div>
-
+      </section >
+      <section id="section1">
         <div className="techSkillsDiv">
 
           <img className="skills" alt="JavaScript logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Javascript_Logo.png/640px-Javascript_Logo.png" />
@@ -50,7 +55,7 @@ function Landing() {
           <img className="skills" alt="Django.js logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/121px-Django_logo.svg.png" />
 
           <img className="skills" alt="Node.js logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" />
-          
+
           <img className="skills" alt="GitHub logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/220px-GitHub_logo_2013.svg.png" />
 
           <img className="skills" alt="Jira logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Jira_%28Software%29_logo.svg/250px-Jira_%28Software%29_logo.svg.png" />
@@ -58,11 +63,10 @@ function Landing() {
 
 
         </div >
+      </section>
 
-      </section >
 
-
-      <section id="section1">
+      <section id="section2">
         <h3 className="latestProjectsH3"> &lt; Latest Projects &gt;</h3>
         <div className="projectsMap">
           {projectsData && projectsData.map((project) => {

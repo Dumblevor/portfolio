@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./Navbar.css";
+import { NavHashLink } from 'react-router-hash-link';
 
 
 function Navbar() {
@@ -11,9 +12,11 @@ function Navbar() {
       <h1>Dimitar Vidolov&apos;s portfolio</h1>
       <header className="headerStyle">
         <div className="leftDiv">
-          <Link className="navlink logo" to="/"> &lt; DV &gt;
+          <Link className="navlink logo" to="/"> &lt;DV&gt;
             {/* <img className="logo-image" src="" /> */}
           </Link>
+          <NavHashLink smooth className="navlink textlink" to="#section1">Projects</NavHashLink>
+
           {/* 
           <a href="#section2" className="navlink left">
             about

@@ -23,7 +23,6 @@ p {
   font-family: 'Overpass', sans-serif;
   margin: 1em;
   padding: 1em;
-  margin-top: 5em;
   margin-left: 1em;
   max-width: 85%;
 }
@@ -34,6 +33,11 @@ p {
   justify-content: space-around;
   flex-wrap: wrap;
 
+}
+.coverart{
+  max-width: 110%;
+  filter:grayscale(60%);
+  border-radius: 20px;
 }
 
 .project {
@@ -50,14 +54,13 @@ p {
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   border-top-right-radius: 50%;
-  padding: 0.5em;
+  padding: 0.6em;
   border-top: 3px solid rgb(122, 122, 122);
   border-bottom: 3px solid green;
   border-left: 3px solid green;
   border-right: 3px solid rgb(100, 100, 100);
   border-end-end-radius: 15px;
   height: 350px;
-  margin-right: 5px;
 }
 
 .avatar-image:hover {
@@ -69,6 +72,11 @@ section {
   background-color: rgb(255, 255, 255);
   color: rgb(60, 60, 60);
 }
+
+#section1{
+  display:flex;
+  flex-direction: column; 
+  align-items: center;}
 
 .latestProjectsH3 {
   padding-top: 1em;
@@ -86,7 +94,7 @@ section {
 
 }
 
-#section1 {
+#section2 {
   background-color: rgb(33, 27, 27);
 }
 
@@ -137,13 +145,12 @@ footer {
   .avatar-text {
     max-width: 100%;
     font-family: 'Overpass', sans-serif;
-    margin-bottom: 2em;
 
   }
 
   .avatar-image {
     float: right;
-    margin-bottom: 1em;
+    height:200px;
   }
 
   .aboutP {

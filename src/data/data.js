@@ -4,7 +4,7 @@ const projectsData = [
     name: "Project 4: Firesell | @ General Assembly",
     type: "App Store",
     logoLink: "",
-    description: "An app store inspired by App Sumo.",
+    description: "An app store inspired by App Sumo, though the idea was that one can sell any kind of digital content, e.g. 3D models, browser extensions, etc.",
     deploymentLink: "https://firesell2.netlify.app",
     repoLink: "https://github.com/Dumblevor/firesell_front",
     screen: "https://github.com/Dumblevor/firesell_front/raw/main/readme_assets/preview-screen.png",

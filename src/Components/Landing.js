@@ -41,13 +41,6 @@ function Landing() {
           })}
         </div>
       </section>
-
-      <section id="section2">
-      </section>
-      <section id="section3">
-      </section>
-      <section id="section4">
-      </section>
     </div>
   )
 }

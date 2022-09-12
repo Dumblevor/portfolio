@@ -103,11 +103,16 @@ footer {
   max-height: 3em;
   margin: 2em;
   margin-right: 5em;
-
+  z-index: 2;
+  -webkit-filter: grayscale(1);
+  /* Webkit */
+  filter: gray;
+  /* IE6-9 */
+  filter: grayscale(1);
+  /* W3C */
 }
 
 .techSkillsDiv {
-  align-self: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -115,7 +120,8 @@ footer {
   justify-content: space-evenly;
   justify-items: center;
   align-items: center;
-  filter: grayscale(100%)
+  z-index: 1;
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -141,9 +147,10 @@ footer {
   .aboutP {
     margin: 0em;
   }
+
   .skills {
-  max-height: 2em;
-  margin: 1.5em;
-  margin-right: 0em;
+    max-height: 2em;
+    margin: 1.5em;
+    margin-right: 0em;
   }
 }

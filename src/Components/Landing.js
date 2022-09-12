@@ -48,7 +48,9 @@ function Landing() {
           <img className="skills" alt="HTML logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/130px-HTML5_logo_and_wordmark.svg.png" />
 
           <img className="skills" alt="Django.js logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/121px-Django_logo.svg.png" />
-          <img className="skills" alt="Node.js logo" src="https://en.wikipedia.org/wiki/File:Node.js_logo.svg" />
+
+          <img className="skills" alt="Node.js logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" />
+          
           <img className="skills" alt="GitHub logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/220px-GitHub_logo_2013.svg.png" />
 
           <img className="skills" alt="Jira logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Jira_%28Software%29_logo.svg/250px-Jira_%28Software%29_logo.svg.png" />

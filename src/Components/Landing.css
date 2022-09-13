@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+body {
+  margin: 0;
+}
+
 .landingPage {
   font-family: 'Overpass', sans-serif;
   margin-top: 3em;
@@ -34,11 +38,13 @@ p {
   flex-wrap: wrap;
 
 }
-.coverart{
-  max-width: 110%;
-  filter:grayscale(60%);
-  border-radius: 20px;
+
+.coverart {
+  filter: grayscale(60%);
+  max-height: 350px;
 }
+
+
 
 .project {
   align-self: center;
@@ -73,10 +79,11 @@ section {
   color: rgb(60, 60, 60);
 }
 
-#section1{
-  display:flex;
-  flex-direction: column; 
-  align-items: center;}
+#section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .latestProjectsH3 {
   padding-top: 1em;
@@ -124,13 +131,13 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 70%;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
 #section0 {
-  display:flex;
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -150,7 +157,7 @@ footer {
 
   .avatar-image {
     float: right;
-    height:200px;
+    height: 200px;
   }
 
   .aboutP {
@@ -159,7 +166,15 @@ footer {
 
   .skills {
     max-height: 2em;
-    margin: 1.5em;
-    margin-right: 0em;
+    margin: 1em;
   }
+
+  .techSkillsDiv {
+    max-width: 100%;
+  }
+
+  .coverart {
+    max-width: 102%;
+  }
+
 }

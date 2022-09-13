@@ -13,18 +13,8 @@ function Navbar() {
       <header className="headerStyle">
         <div className="leftDiv">
           <Link className="navlink logo" to="/"> &lt;DV&gt;
-            {/* <img className="logo-image" src="" /> */}
           </Link>
-          <NavHashLink smooth className="navlink textlink" to="#section1">Projects</NavHashLink>
-
-          {/* 
-          <a href="#section2" className="navlink left">
-            about
-          </a>
-          <a href="#section3" className="navlink left">
-            contact
-          </a> */}
-        </div>
+          <NavHashLink smooth className="navlink textlink" to="#section1">Projects</NavHashLink>        </div>
 
         <div className="rightDiv">
           <a className="navlink link--logo-image mail" href={`mailto:${emailAddress}`}>✉️</a>
@@ -36,7 +26,6 @@ function Navbar() {
           </a>
         </div>
       </header>
-
     </div>
   )
 }

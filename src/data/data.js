@@ -7,7 +7,7 @@ const projectsData = [
     description: "An app store inspired by App Sumo, though the idea was that one can sell any kind of digital content, e.g. 3D models, browser extensions, etc. The assignment was to create a full-stack website with React and Flask. The project was to be completed individually within 5 days over 2 weeks, for a total of 30 hours.",
     deploymentLink: "https://firesell2.netlify.app",
     repoLink: "https://github.com/Dumblevor/firesell_front",
-    screen: "https://github.com/Dumblevor/firesell_front/raw/main/readme_assets/preview-screen.png",
+    screen: "https://github.com/Dumblevor/firesell_front/raw/main/readme_assets/preview-screen-p4.png",
     id: 4,
   },
   {

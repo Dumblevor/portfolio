@@ -7,11 +7,11 @@ import coverArt from "../assets/coverArt.png"
 function Landing() {
 
   return (<>
+
     <div className="landingPage">
-      <img className="coverart" alt="coverart" src={coverArt} />
 
       <section id="section0">
-
+          <img className="coverart" alt="coverart" src={coverArt} />
         <div className="avatar">
 
           <img className="avatar-image" src="https://avatars.githubusercontent.com/u/100156884?v=4" alt="dimitar vidolov's logo" />

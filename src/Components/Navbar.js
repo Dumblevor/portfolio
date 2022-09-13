@@ -5,7 +5,6 @@ import { NavHashLink } from 'react-router-hash-link';
 
 
 function Navbar() {
-  const emailAddress = "dimitar.vidolov@gmail.com"
 
   return (
     <div>
@@ -17,7 +16,7 @@ function Navbar() {
           <NavHashLink smooth className="navlink textlink" to="#section1">Projects</NavHashLink>        </div>
 
         <div className="rightDiv">
-          <a className="navlink link--logo-image mail" href={`mailto:${emailAddress}`}>✉️</a>
+          <a className="navlink link--logo-image mail" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#109;&#105;&#116;&#97;&#114;&#46;&#118;&#105;&#100;&#111;&#108;&#111;&#118;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">✉️</a>
           <a className="navlink" href="https://www.linkedin.com/in/dvidolov/"  target="_blank" rel="noopener noreferrer">
             <img className="link--logo-image" alt="linkedin logo" src="https://brand.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" />
           </a>

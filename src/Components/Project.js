@@ -16,19 +16,13 @@ function Project(props) {
         <div className="right-handside-content">
           <p>{props.description}</p>
           <div className="buttonGroup">
-
             <a href={props.deploymentLink} className="productionButton button" target="_blank" rel="noopener noreferrer">
               Live &gt;
             </a>
-
             <a href={props.repoLink} className="repoButton button" target="_blank" rel="noopener noreferrer">
               Repo / ReadMe &gt;
             </a>
           </div>
-
-
-
-
         </div>
       </div>
 

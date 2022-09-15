@@ -20,17 +20,17 @@ function Landing() {
             <h2>Hi, I&apos;m Dimitar Vidolov</h2>
             <h4>I like tinkering with software and kitesurfing.
               Recently, I completed General Assembly&apos;s
-              Immersive Software Engineering bootcamp,
-              where I built some projects you can see below.
+              Immersive Software Engineering boot camp,
+              where I built 4 projects you can see below.
             </h4>
-            <p>Driven as a software engineer with a passion for building user focused products.
-              My background in hospitality and food production provide a unique blend
+            <p>Driven as a software engineer with a passion for building user-focused products.
+              My background in hospitality and food production provides a unique blend
               of perspectives that enhance my work.</p>
-              <p>Through my previous work I developed a good business sence, critical thinking, as well grit, a nack for negotiating and communications.
-              <br/>Coding the software projects below - I worked with JavaScript, React.js, Express.js, MongoDB, Python 3, Flask, PostgreSQL, CSS, HTML, Django.js, Node.js, GitHub and Jira.
-              </p>
-              <p>
-                As for human languages - I am fluent in English thanks to a 6 year stint in the UK, native in Bulgarian and I recently took upon Spanish. In my spare time I ride a snowmobile, a motocross bike, kitesurf and dabble in real estate.
+            <p>Through my previous work I developed a good business sense, critical thinking, as well grit, and a knack for negotiating and communications.
+              <br />Coding the software projects below - I worked with JavaScript, React.js, Express.js, MongoDB, Python 3, Flask, PostgreSQL, CSS, HTML, Django.js, Node.js, GitHub, and Jira.
+            </p>
+            <p>
+              As for human languages - I am fluent in English thanks to a 6-year stint in the UK, native in Bulgarian, and I recently took up Spanish. In my spare time, I ride a snowmobile, a motocross bike, kitesurf and dabble in real estate.
             </p>
           </div>
         </div>

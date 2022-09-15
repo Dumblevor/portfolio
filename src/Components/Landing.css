@@ -96,7 +96,7 @@ section {
 }
 
 .avatar-text {
-  max-width: 55%;
+  max-width: 45%;
   font-family: 'Overpass', sans-serif;
   align-self: center;
 
@@ -125,7 +125,14 @@ footer {
   /* IE6-9 */
   filter: grayscale(1);
   /* W3C */
+  border-radius: 5px;
+  padding: 2px;
 }
+
+.skills:hover {
+  box-shadow: 10px 10px 10px rgb(126, 126, 126);
+}
+
 
 .techSkillsDiv {
   display: flex;
@@ -151,9 +158,12 @@ footer {
   }
 
   .avatar-text {
-    max-width: 100%;
+    max-width: 80%;
     font-family: 'Overpass', sans-serif;
+  }
 
+  .avatar-text h4 {
+    font-size: 1.1em;
   }
 
   .avatar-image {

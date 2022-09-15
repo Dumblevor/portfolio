@@ -19,7 +19,7 @@ function Landing() {
           <div className="avatar-text">
             <h2>Hi, I&apos;m Dimitar Vidolov</h2>
             <h4>I like tinkering with software and kitesurfing.
-              Recently, I graduated General Assembly&apos;s
+              Recently, I completed General Assembly&apos;s
               Immersive Software Engineering bootcamp,
               where I built some projects you can see below.
             </h4>
@@ -52,7 +52,7 @@ function Landing() {
 
 
       <section id="section2">
-        <h3 className="latestProjectsH3"> &lt; Latest Projects &gt;</h3>
+        <h3 className="latestProjectsH3"> &lt; Projects &gt;</h3>
         <div className="projectsMap">
           {projectsData && projectsData.map((project) => {
             return (

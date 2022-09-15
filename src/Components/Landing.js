@@ -11,7 +11,7 @@ function Landing() {
     <div className="landingPage">
 
       <section id="section0">
-          <img className="coverart" alt="coverart" src={coverArt} />
+        <img className="coverart" alt="coverart" src={coverArt} />
         <div className="avatar">
 
           <img className="avatar-image" src="https://avatars.githubusercontent.com/u/100156884?v=4" alt="dimitar vidolov's logo" />
@@ -23,10 +23,14 @@ function Landing() {
               Immersive Software Engineering bootcamp,
               where I built some projects you can see below.
             </h4>
-            <p>Driven as a software engineer with a passion for building user focused products. <br />
+            <p>Driven as a software engineer with a passion for building user focused products.
               My background in hospitality and food production provide a unique blend
-              of perspectives that enhance my work.<br /><br />
-              Through my software projects I worked with JavaScript, React.js, Express.js, MongoDB, Python 3, Flask, PostgreSQL, CSS, HTML, Django.js, Node.js, GitHub and Jira.
+              of perspectives that enhance my work.</p>
+              <p>Through my previous work I developed a good business sence, critical thinking, as well grit, a nack for negotiating and communications.
+              <br/>Coding the software projects below - I worked with JavaScript, React.js, Express.js, MongoDB, Python 3, Flask, PostgreSQL, CSS, HTML, Django.js, Node.js, GitHub and Jira.
+              </p>
+              <p>
+                As for human languages - I am fluent in English thanks to a 6 year stint in the UK, native in Bulgarian and I recently took upon Spanish. In my spare time I ride a snowmobile, a motocross bike, kitesurf and dabble in real estate.
             </p>
           </div>
         </div>
@@ -46,10 +50,8 @@ function Landing() {
           <img className="skills" alt="Node.js logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" />
           <img className="skills" alt="GitHub logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/220px-GitHub_logo_2013.svg.png" />
           <img className="skills" alt="Jira logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Jira_%28Software%29_logo.svg/250px-Jira_%28Software%29_logo.svg.png" />
-
         </div >
       </section>
-
 
       <section id="section2">
         <h3 className="latestProjectsH3"> &lt; Projects &gt;</h3>
@@ -63,8 +65,28 @@ function Landing() {
           })}
         </div>
       </section>
-    </div >
 
+      <section id="section3">
+        <p>Reach me on <a className="" href="https://www.linkedin.com/in/dvidolov/" target="_blank" rel="noopener noreferrer"> LinkedIn</a> or send me an <a className="" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#109;&#105;&#116;&#97;&#114;&#46;&#118;&#105;&#100;&#111;&#108;&#111;&#118;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">email</a>.
+        </p>
+      </section>
+      {/* <section id="section4">
+        <div className="softskills">
+          <p><h4>Soft Skills: 
+          </h4>
+            Adaptability,
+            Analytical Thinking,
+            Critical Thinking,
+            Curiosity,
+            Decision-Making,
+            Empathy,
+            Grit,
+            Communications,
+            Negotiating.<br/>
+          <h4>Human Languages: 
+          </h4>English: Flient, Bulgarian: Native</p></div>
+      </section> */}
+    </div >
   </>
   )
 }

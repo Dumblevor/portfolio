@@ -11,7 +11,7 @@ function Navbar() {
       <h1>Dimitar Vidolov&apos;s portfolio</h1>
       <header className="headerStyle">
         <div className="leftDiv">
-          <Link className="navlink logo" to="/"> &lt;DV&gt;
+          <Link className="navlink logo" to="/"> &lt; D V &gt;
           </Link>
           <NavHashLink smooth className="navlink textlink" to="#section1">Projects</NavHashLink>        </div>
 

@@ -23,7 +23,7 @@ p {
 
 .avatar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-family: 'Overpass', sans-serif;
   margin: 1em;
   padding: 1em;
@@ -55,8 +55,7 @@ p {
 }
 
 .avatar-image {
-  align-self: flex-end;
-  justify-items: flex-end;
+  align-self: center;
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -106,15 +105,18 @@ section {
   background-color: rgb(33, 27, 27);
 }
 
-footer {
+#section3, #section4 {
   font-family: 'Overpass', sans-serif;
-  margin: 1em;
   filter: grayscale(85%);
   font-weight: 600;
   color: gray;
   font-size: 20px;
 }
 
+#section4 div h4, #section4 div p {
+  display: inline-block;
+  vertical-align: middle;
+}
 .skills {
   max-height: 3em;
   margin: 2em;
@@ -167,9 +169,11 @@ footer {
   }
 
   .avatar-image {
-    float: right;
-    height: 200px;
-  }
+max-width: 50%;
+align-self: center;
+height: auto;
+
+}
 
   .aboutP {
     margin: 0em;

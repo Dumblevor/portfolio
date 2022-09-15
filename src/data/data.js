@@ -1,7 +1,7 @@
 
 const projectsData = [
   {
-    name: "Latest Project: Firesell | @ General Assembly",
+    name: "Latest Solo Project: Firesell | @ General Assembly",
     type: "App Store",
     logoLink: "",
     description: "An app store inspired by App Sumo, though the idea was that one can sell any kind of digital content, e.g. 3D models, browser extensions, etc. The assignment was to create a full-stack website with React and Flask. The project was to be completed individually within 5 days over 2 weeks, for a total of 30 hours.",
@@ -27,7 +27,7 @@ const projectsData = [
     description: "Web-based vanilla JavaScript game, inspired by the classic Space Invaders. The assignment was to create a grid-based game to be rendered in the browser, using HTML, and CSS and JavaScript. The project was to be completed individually within 6 days over 3 weeks.",
     deploymentLink: "https://dumblevor.github.io/spce_inv1/",
     repoLink: "https://github.com/Dumblevor/spce_inv1",
-    screen: "https://github.com/Dumblevor/spce_inv1/blob/34e26d91997b1ea4b72c8c06981f88b71e2bcdc3/readme-assets/Gameplay_screen_1.png?raw=true",
+    screen: "https://github.com/Dumblevor/spce_inv1/raw/main/readme-assets/readme_demo.gif",
     id: 1,
   },
   {

@@ -30,7 +30,7 @@ function Landing() {
               <br />Coding the software projects below - I worked with JavaScript, React.js, Express.js, MongoDB, Python 3, Flask, PostgreSQL, CSS, HTML, Django.js, Node.js, GitHub, and Jira.
             </p>
             <p>
-              As for human languages - I am fluent in English thanks to a 6-year stint in the UK, native in Bulgarian, and I recently took up Spanish. In my spare time, I ride a snowmobile, a motocross bike, kitesurf and dabble in real estate.
+              As for human languages - I am fluent in English thanks to a 6-year stint in the UK, native in Bulgarian, and I recently took up Spanish. In my spare time, I ride snowmobiles, motocross bikes, kitesurf and dabble in real estate.
             </p>
           </div>
         </div>

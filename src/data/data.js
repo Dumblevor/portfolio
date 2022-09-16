@@ -37,7 +37,7 @@ const projectsData = [
   {
     name: "Duo Project: 3rd Party API with React | @ General Assembly",
     type: "3rd party API consumption",
-    logoLink: "https://rick-and-morty-randomizer.netlify.app/static/media/RandomMORTY-2.d921ccb5adfe56b82ccb.gif",
+    logoLink: "",
     description: "Used a Rick and Morty API whereas our site would request and display a random character dependant on the user gender selection. The assignment was to build a React application that consumes a public API. The project was to be completed in a group of 2 within 5 days over 2 weeks.",
     deploymentLink: "https://rick-and-morty-randomizer.netlify.app",
     repoLink: "https://github.com/Dumblevor/project-2",

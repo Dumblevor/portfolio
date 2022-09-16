@@ -11,8 +11,12 @@ function Project(props) {
       </a>
 
       <div className="contentBlock">
-        <img className="projectScreen" src={props.screen} alt={`${props.name} screen `} />
-
+        {props.id !== 1 ? <img className="projectScreen" src={props.screen} alt={`${props.name} screen `} />
+          :
+          <video className="projectScreen" autoPlay muted >
+            <source className="" src={props.screen} type="video/mp4" />
+          </video>
+        }
         <div className="right-handside-content">
           <p>{props.description}</p>
           <div className="buttonGroup">

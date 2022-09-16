@@ -97,6 +97,7 @@ section {
 }
 
 .avatar-text {
+  margin-top: 4em;
   max-width: 45%;
   font-family: 'Overpass', sans-serif;
   align-self: center;
@@ -121,10 +122,12 @@ section {
   display: inline-block;
   vertical-align: middle;
 }
+#section3 > p {
+  margin:1em;
+}
 
 .skill-image {
   height: 3em;
-
   -webkit-filter: grayscale(1);
   /* Webkit */
   filter: gray;
@@ -191,7 +194,7 @@ section {
   }
 
   .skill-image {
-    height: 2em;
+    height: 3em;
     
   }
 

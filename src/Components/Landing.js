@@ -2,8 +2,9 @@ import React from "react"
 import "./Landing.css";
 import projectsData from "../data/data";
 import Project from "./Project";
-import coverArt from "../assets/coverArt.png"
+import coverArt from "../assets/coverArt.webp"
 import skillsData from "../data/skillsData";
+import avatartImage from "../assets/avatar-image.webp"
 
 function Landing() {
 
@@ -12,10 +13,9 @@ function Landing() {
     <div className="landingPage">
 
       <section id="section0">
-        <img className="coverart" alt="coverart" src={coverArt} />
         <div className="avatar">
 
-          <img className="avatar-image" src="https://avatars.githubusercontent.com/u/100156884?v=4" alt="dimitar vidolov's logo" />
+          <img className="avatar-image" src={avatartImage} alt="dimitar vidolov's logo" />
 
           <div className="avatar-text">
             <h2>Hi, I&apos;m Dimitar Vidolov</h2>
@@ -69,6 +69,8 @@ function Landing() {
       <section id="section3">
         <p>Reach me on <a className="" href="https://www.linkedin.com/in/dvidolov/" target="_blank" rel="noopener noreferrer"> LinkedIn</a> or send me an <a className="" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#109;&#105;&#116;&#97;&#114;&#46;&#118;&#105;&#100;&#111;&#108;&#111;&#118;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">email</a>.
         </p>
+        <img className="coverart" alt="coverart" src={coverArt} />
+
       </section>
     </div >
   </>

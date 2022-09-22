@@ -42,7 +42,7 @@ function Landing() {
 
           {skillsData && skillsData.map((skill) => {
             return (
-              <div className=" skills-wrap" key={skill.name}>
+              <div className="skills-wrap" key={skill.name}>
                 <img className="skill-image" src={skill.source} alt={`${skill.name} logo`} />
                 <p>{skill.name}
                 </p>

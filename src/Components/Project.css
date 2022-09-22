@@ -12,17 +12,18 @@
   flex-direction: column;
   flex-basis: 100%;
   flex-wrap: wrap;
-  border-radius: 1em;
   padding: 1em;
   max-width: 75%;
   background-color: white;
-  border-top: 15px solid rgb(232, 211, 185);
+  border: 2px solid black;
+  box-shadow: 7px 7px 2px black;
 
 }
 h4 {
   font-size: 1.5em;
 }
 .titlelink {
+  text-align: center;
   text-decoration: none;
   color: rgb(60, 60, 60);
 }
@@ -34,10 +35,6 @@ h4 {
 p {
   font-size: 15px;
 
-}
-
-.projectDiv:hover {
-  box-shadow: 10px 10px 35px gray ;
 }
 
 

@@ -11,9 +11,9 @@ function Project(props) {
       </a>
 
       <div className="contentBlock">
-        {props.id !== 1 ? <img className="projectScreen" src={props.screen} alt={`${props.name} screen `} />
-          :
-          <video className="projectScreen" autoPlay muted >
+        {props.id !== 1
+        ? <img className="projectScreen" src={props.screen} alt={`${props.name} screen `} />
+        : <video className="projectScreen" autoPlay muted >
             <source className="" src={props.screen} type="video/mp4" />
           </video>
         }

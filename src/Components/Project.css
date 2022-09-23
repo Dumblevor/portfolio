@@ -7,7 +7,6 @@
 }
 
 .projectDiv {
-  font-family: 'Overpass', sans-serif;
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -111,7 +110,6 @@ p {
 }
 
 @media only screen and (max-width: 450px) {
-  .projectDiv {}
 
   .buttonGroup {
     display: flex;

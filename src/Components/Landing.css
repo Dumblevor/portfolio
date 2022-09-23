@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {
-  margin: 0;
+  font-family: 'Overpass', sans-serif;
 }
 
 .landingPage {
-  font-family: 'Overpass', sans-serif;
   margin-top: 3em;
   display: flex;
   flex-direction: column;
@@ -24,7 +23,6 @@ p {
 .avatar {
   display: flex;
   justify-content: space-evenly;
-  font-family: 'Overpass', sans-serif;
   margin: 1em;
   padding: 1em;
   margin-left: 1em;
@@ -43,7 +41,6 @@ p {
   filter: grayscale(60%);
   max-height: 350px;
 }
-
 
 
 .project {
@@ -69,6 +66,8 @@ p {
 }
 
 .avatar-image:hover {
+  transition: transform .2s;
+  transform: scale(1.1);
   box-shadow: 10px 10px 10px rgb(126, 126, 126);
 }
 
@@ -76,7 +75,6 @@ p {
 section {
   background-color: rgb(255, 255, 255);
   color: rgb(60, 60, 60);
-
 }
 
 #section1 {
@@ -111,7 +109,6 @@ section {
 
 #section3,
 #section4 {
-  font-family: 'Overpass', sans-serif;
   filter: grayscale(85%);
   font-weight: 600;
   color: gray;
@@ -123,8 +120,11 @@ section {
   display: inline-block;
   vertical-align: middle;
 }
-#section3 > p {
-  margin:1em;
+
+#section3>p {
+  margin: 1em;
+  max-width: 100%;
+
 }
 
 .skill-image {
@@ -139,8 +139,8 @@ section {
 
 .skills-wrap:hover {
   box-shadow: 10px 10px 10px rgb(126, 126, 126);
-  align-self: center;
-
+  transition: transform .1s;
+  transform: scale(1.05);
 }
 
 .skills-wrap {
@@ -166,17 +166,15 @@ section {
   align-items: center;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
+
 
   .avatar {
-    display: flex;
-    flex-direction: column;
     max-width: 100%;
   }
 
   .avatar-text {
     max-width: 80%;
-    font-family: 'Overpass', sans-serif;
   }
 
   .avatar-text h4 {
@@ -186,8 +184,9 @@ section {
   .avatar-image {
     margin-top: 2em;
     max-width: 35%;
-    align-self: center;
+    align-self: flex-end;
     height: auto;
+    margin-right: 35px;
   }
 
   .aboutP {
@@ -196,7 +195,7 @@ section {
 
   .skill-image {
     height: 3em;
-    
+
   }
 
   .techSkillsDiv {
@@ -204,8 +203,9 @@ section {
   }
 
   .skills-wrap {
-  margin:1em;
+    margin: 1em;
   }
+
   .coverart {
     max-width: 102%;
   }
@@ -214,6 +214,32 @@ section {
     text-align: center;
     max-width: 100%;
     font-size: 1.5em;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+
+  .avatar {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .avatar-text {
+    max-width: 100%;
+  }
+
+  .avatar-text h4 {
+    font-size: 0.9em;
+  }
+
+  .avatar-image {
+    margin-top: 2em;
+    max-width: 45%;
+    margin-right: 0px;
+    align-self: flex-end;
   }
 
 }

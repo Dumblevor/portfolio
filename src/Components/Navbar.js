@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "./Navbar.css";
 import { NavHashLink } from 'react-router-hash-link';
+import dvLogo from '../assets/logos/dv-logo.webp';
 
 
 function Navbar() {
@@ -11,8 +12,12 @@ function Navbar() {
       <h1>Dimitar Vidolov&apos;s portfolio</h1>
       <header className="headerStyle">
         <div className="leftDiv">
-        <NavHashLink smooth className="navlink logo" to="/#section0"> &lt;D V&gt;
-          </NavHashLink>
+          {/*<NavHashLink smooth className="navlink logo" to="/#section0"> &lt;D V&gt;*/}
+          <a className="logo-wrapper" href="/#section0">
+
+            <img className="logo" alt="Dimitar Vidolov logo" src={dvLogo} />
+
+          </a>
           <NavHashLink smooth className="navlink textlink" to="#section2">
             Projects
           </NavHashLink>

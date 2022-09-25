@@ -2,6 +2,7 @@ import React from "react";
 import coverArt from "../assets/coverArt.webp"
 import "./About.css";
 import dvLogo from '../assets/logos/dv-logo.webp';
+import { NavHashLink } from 'react-router-hash-link';
 
 
 export default function About() {
@@ -15,7 +16,8 @@ export default function About() {
           My background in hospitality and food production provides a unique blend
           of perspectives that enhance my work.</p>
         <p>Through my previous work I developed a good business sense, critical thinking, as well grit, and a knack for negotiating and communication.
-          <br />Coding the software projects below - I worked with JavaScript, React.js, Express.js, MongoDB, Python 3, Flask, PostgreSQL, CSS, HTML, Django.js, Node.js, GitHub, and Jira.
+          <br /> Coding <NavHashLink className="navHashLink" to="/#section2">
+             these software projects</NavHashLink> as part of the GA course - I worked with JavaScript, React.js, Express.js, MongoDB, Python 3, Flask, PostgreSQL, CSS, HTML, Django.js, Node.js, GitHub, and Jira.
         </p>
         <p>
           As for human languages - I am fluent in English thanks to a 6-year stint in the UK, native in Bulgarian, and I recently took up Spanish. In my spare time, I ride snowmobiles, hike, kitesurf and dabble in real estate.

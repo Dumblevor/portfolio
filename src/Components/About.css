@@ -13,6 +13,10 @@
   width: 50%;
 }
 
+.navHashLink {
+text-decoration: none;
+font-weight: bold;
+}
 
 @media only screen and (max-width: 1200px) {
   .textwrapper {

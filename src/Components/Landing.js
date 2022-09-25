@@ -26,14 +26,12 @@ export default function Landing() {
               Immersive Software Engineering boot camp,
               where I built 4 projects you can see below.
             </h4>
-            <Link className="button" to="/about">
-              Read more
-            </Link>
             <NavHashLink smooth className="button" to="/#section2">
               See Projects
             </NavHashLink>
-
-
+            <Link className="button" to="/about">
+              More about &gt;
+            </Link>
           </div>
         </div>
       </section >

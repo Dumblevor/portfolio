@@ -54,13 +54,14 @@ p {
 .avatar-image {
   align-self: center;
   border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
   border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
   padding: 0.6em;
-  border-top: 3px solid rgb(122, 122, 122);
-  border-bottom: 3px solid green;
-  border-left: 3px solid green;
-  border-right: 3px solid rgb(100, 100, 100);
+  box-shadow: 3px 3px 1px 1px  rgb(73, 73, 73);
+  /* border-top: 10px solid rgb(0, 0, 0);
+  border-bottom: 10px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0); */
   border-end-end-radius: 15px;
   height: 350px;
 }
@@ -165,14 +166,14 @@ section {
     max-width: 80%;
   }
 
-  .avatar-text h4 {
+  .avatar-text > p {
     font-size: 1.1em;
   }
 
   .avatar-image {
     margin-top: 2em;
     max-width: 35%;
-    align-self: flex-end;
+    align-self: center;
     height: auto;
     margin-right: 35px;
   }
@@ -211,21 +212,16 @@ section {
   .avatar {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
   }
 
   .avatar-text {
+    margin-top: 0em;
     max-width: 100%;
-  }
-
-  .avatar-text h4 {
-    font-size: 0.9em;
   }
 
   .avatar-image {
     margin-top: 2em;
-    max-width: 45%;
+    max-width: 55%;
     margin-right: 0px;
-    align-self: flex-end;
   }
 }

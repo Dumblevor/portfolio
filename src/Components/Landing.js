@@ -13,19 +13,16 @@ export default function Landing() {
   return (<>
 
     <div className="landingPage">
-
       <section id="section0">
         <div className="avatar">
-
           <img className="avatar-image" src={avatartImage} alt="dimitar vidolov's logo" />
-
           <div className="avatar-text">
             <h2>Hi, I&apos;m Dimitar Vidolov</h2>
-            <h4>I like tinkering with software and kitesurfing.
+            <p>I like tinkering with software and kitesurfing.
               Recently, I completed General Assembly&apos;s
               Immersive Software Engineering boot camp,
               where I built 4 projects you can see below.
-            </h4>
+            </p><br/>
             <NavHashLink smooth className="button" to="/#section2">
               See Projects
             </NavHashLink>

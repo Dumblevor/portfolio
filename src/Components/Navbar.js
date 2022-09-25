@@ -17,9 +17,9 @@ export default function Navbar() {
           
           {/*<NavHashLink smooth className="navlink logo" to="/#section0"> &lt;D V&gt;*/}
 
-          <a className="logo-wrapper" href="/#section0">
+          <NavHashLink smooth className="logo-wrapper" to="/#">
             <img className="logo" alt="Dimitar Vidolov logo" src={dvLogo} />
-          </a>
+          </NavHashLink>
 
           <NavHashLink smooth className="navlink textlink" to="/#section2">
             Projects

@@ -23,12 +23,14 @@ export default function Landing() {
               Immersive Software Engineering boot camp,
               where I built 4 projects you can see below.
             </p><br/>
+            <div className="buttonGroup">
             <NavHashLink smooth className="button" to="/#section2">
               See Projects
             </NavHashLink>
             <Link className="button" to="/about">
               More about &gt;
             </Link>
+            </div>
           </div>
         </div>
       </section >

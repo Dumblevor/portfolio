@@ -87,7 +87,6 @@ p {
     display: flex;
     flex-direction: row;
     margin-top: 0em;
-
   }
 
   .button {
@@ -105,12 +104,9 @@ p {
   .projectDiv {
     max-width: 100%;
   }
-
-
 }
 
 @media only screen and (max-width: 450px) {
-
   .buttonGroup {
     display: flex;
     flex-direction: row;
@@ -126,7 +122,6 @@ p {
     padding: 15px;
   }
 
-
   p {
     font-size: 9px;
   }
@@ -135,7 +130,6 @@ p {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-
   }
 
   h4 {

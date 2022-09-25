@@ -5,6 +5,7 @@ import { NavHashLink } from 'react-router-hash-link';
 import dvLogo from '../assets/logos/dv-logo.webp';
 import liLogo from "../assets/logos/LI-In-Bug.webp";
 import ghLogo from "../assets/logos/GitHub-Mark-64px.webp";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
 
@@ -20,9 +21,12 @@ function Navbar() {
             <img className="logo" alt="Dimitar Vidolov logo" src={dvLogo} />
           </a>
 
-          <NavHashLink smooth className="navlink textlink" to="#section2">
+          <NavHashLink smooth className="navlink textlink" to="/#section2">
             Projects
           </NavHashLink>
+          <NavLink to="/about" className="navlink textlink">
+            About
+          </NavLink>
         </div>
 
         <div className="rightDiv">

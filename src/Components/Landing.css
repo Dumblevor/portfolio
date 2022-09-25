@@ -99,31 +99,27 @@ section {
   max-width: 45%;
   font-family: 'Overpass', sans-serif;
   align-self: center;
-
 }
 
 #section2 {
   background-color: rgb(255, 255, 255);
 }
 
-#section3,
-#section4 {
+#section3 {
   filter: grayscale(85%);
   font-weight: 600;
   color: gray;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#section4 div h4,
-#section4 div p {
-  display: inline-block;
-  vertical-align: middle;
-}
+
 
 #section3>p {
   margin: 1em;
   max-width: 100%;
-
 }
 
 .skill-image {
@@ -219,7 +215,6 @@ section {
 
 @media only screen and (max-width: 800px) {
 
-
   .avatar {
     display: flex;
     flex-direction: column;
@@ -240,5 +235,4 @@ section {
     margin-right: 0px;
     align-self: flex-end;
   }
-
 }

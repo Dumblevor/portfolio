@@ -7,7 +7,7 @@ import liLogo from "../assets/logos/LI-In-Bug.webp";
 import ghLogo from "../assets/logos/GitHub-Mark-64px.webp";
 import { NavLink } from "react-router-dom";
 
-function Navbar() {
+export default function Navbar() {
 
   return (
     <div>
@@ -42,8 +42,4 @@ function Navbar() {
     </div>
   )
 }
-
-
-
-export default Navbar
 

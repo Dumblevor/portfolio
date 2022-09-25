@@ -1,7 +1,7 @@
 import React from "react"
 import "./Project.css";
 
-function Project(props) {
+export default function Project(props) {
 
   return (
     <div className="projectDiv" key={props.name}>
@@ -36,6 +36,3 @@ function Project(props) {
 
   )
 }
-
-export default Project
-

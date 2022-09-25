@@ -106,21 +106,11 @@ section {
 }
 
 #section3 {
-  filter: grayscale(85%);
-  font-weight: 600;
-  color: gray;
-  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-
-#section3>p {
-  margin: 1em;
-  max-width: 100%;
-}
 
 .skill-image {
   height: 3em;

@@ -6,8 +6,9 @@ import skillsData from "../data/skillsData";
 import avatartImage from "../assets/avatar-image.webp"
 import { Link } from "react-router-dom";
 import dvLogo from '../assets/logos/dv-logo.webp';
+import { NavHashLink } from 'react-router-hash-link';
 
-function Landing() {
+export default function Landing() {
 
   return (<>
 
@@ -25,7 +26,12 @@ function Landing() {
               Immersive Software Engineering boot camp,
               where I built 4 projects you can see below.
             </h4>
-            <Link className=" button" to="/about">Learn more ></Link>
+            <NavHashLink smooth className="button" to="/#section2">
+              Projects
+            </NavHashLink>
+            <Link className="button" to="/about">
+              More about
+            </Link>
 
           </div>
         </div>
@@ -61,14 +67,10 @@ function Landing() {
       </section>
 
       <section id="section3">
-      <img className="logo" alt="Dimitar Vidolov logo" src={dvLogo} />
-
-        <p>Reach me on <a className="" href="https://www.linkedin.com/in/dvidolov/" target="_blank" rel="noopener noreferrer"> LinkedIn</a> or send me an <a className="" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#109;&#105;&#116;&#97;&#114;&#46;&#118;&#105;&#100;&#111;&#108;&#111;&#118;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">email</a>.
-        </p>
+        <img className="logo" alt="Dimitar Vidolov logo" src={dvLogo} />
       </section>
     </div>
   </>
   )
 }
 
-export default Landing

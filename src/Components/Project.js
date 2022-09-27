@@ -13,7 +13,7 @@ export default function Project(props) {
       <div className="contentBlock">
         {props.id !== 1
         ? <img className="projectScreen" src={props.screen} alt={`${props.name} screen `} />
-        : <video className="projectScreen" autoPlay muted >
+        : <video className="projectScreen" controlsList="nodownload" controls>
             <source className="" src={props.screen} type="video/mp4" />
           </video>
         }

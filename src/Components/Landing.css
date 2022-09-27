@@ -100,7 +100,6 @@ section {
   margin-top: 4em;
   max-width: 45%;
   font-family: 'Overpass', sans-serif;
-  align-self: center;
 }
 
 #section2 {
@@ -166,6 +165,10 @@ section {
     max-width: 80%;
   }
 
+  .avatar-text > h2 {
+    text-align: center;
+
+  }
   .avatar-text > p {
     font-size: 1.1em;
   }

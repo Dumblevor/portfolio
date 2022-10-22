@@ -91,9 +91,9 @@ section {
   color: black;
   max-width: 80%;
   font-size: 2em;
-  border-bottom: 2px solid rgb(196, 0, 0);
-  border-top: 2px solid rgb(196, 0, 0);
-  text-align: center;
+  text-decoration: underline rgb(196, 0, 0) ;
+  text-underline-offset: 10px;
+  text-align: left;
 }
 
 .avatar-text {

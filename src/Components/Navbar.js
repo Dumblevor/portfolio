@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { NavHashLink } from 'react-router-hash-link';
 import dvLogo from '../assets/logos/dv-logo.webp';

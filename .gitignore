@@ -26,6 +26,6 @@ yarn-error.log*
 .netlify
 
 #otherstuff
-src/components/ExampleOne.js
-src/components/ExampleTwo.js
-src/assets/pitch.pdf
+# src/components/ExampleOne.js
+# src/components/ExampleTwo.js
+# src/assets/pitch.pdf

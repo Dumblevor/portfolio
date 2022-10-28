@@ -28,3 +28,4 @@ yarn-error.log*
 #otherstuff
 src/components/ExampleOne.js
 src/components/ExampleTwo.js
+src/assets/pitch.pdf

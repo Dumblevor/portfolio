@@ -9,7 +9,12 @@
   height: 90vh;
 }
 
-
+.aboutwrapper > .coverart {
+  margin-top: 5em;
+}
+.textwrapper>p {
+  font-size: 18px;
+}
 
 .textwrapper {
   width: 50%;
@@ -26,12 +31,13 @@
   }
 
   .aboutwrapper > .coverart {
-    margin-top: 8em;
+    margin-top: 3em;
   }
 
   .textwrapper>p {
     font-size: 18px;
   }
 
+  
 }
 

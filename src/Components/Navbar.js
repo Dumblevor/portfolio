@@ -26,6 +26,7 @@ export default function Navbar() {
           <NavLink to="/about" className="navlink textlink">
             About
           </NavLink>
+
         </div>
 
         <div className="rightDiv">

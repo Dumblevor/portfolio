@@ -23,11 +23,10 @@ p {
 .avatar {
   display: flex;
   justify-content: space-evenly;
-  margin: 1em;
-  margin-top: 2em;
   padding: 1em;
   margin-left: 1em;
   max-width: 85%;
+  margin: 1em;
 }
 
 .projectsMap {
@@ -37,12 +36,6 @@ p {
   flex-wrap: wrap;
 
 }
-
-.coverart {
-  filter: grayscale(60%);
-  max-height: 350px;
-}
-
 
 .project {
   align-self: center;
@@ -97,7 +90,6 @@ section {
 }
 
 .avatar-text {
-  margin-top: 4em;
   max-width: 45%;
   font-family: 'Overpass', sans-serif;
 }
@@ -117,6 +109,15 @@ section {
 
 .skill-image {
   height: 3em;
+  -webkit-filter: grayscale(1);
+  /* Webkit */
+  filter: gray;
+  /* IE6-9 */
+  filter: grayscale(1);
+  /* W3C */
+}
+
+#section0 > .coverart {
   -webkit-filter: grayscale(1);
   /* Webkit */
   filter: gray;
@@ -174,7 +175,6 @@ section {
   }
 
   .avatar-image {
-    margin-top: 2em;
     max-width: 35%;
     align-self: center;
     height: auto;

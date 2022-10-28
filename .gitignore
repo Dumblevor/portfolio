@@ -24,3 +24,7 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+#otherstuff
+src/components/ExampleOne.js
+src/components/ExampleTwo.js

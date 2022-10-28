@@ -9,12 +9,13 @@ export default function About() {
 
   return (
     <div className="aboutwrapper">
-      <span />
       <img className="coverart" alt="coverart" src={coverArt} />
 
       <div className="textwrapper">
-        <p>Driven as a software engineer with a passion for building user-focused products.
-          My background in hospitality and food production provides a unique blend
+        <p> Going through Product School to become a Certified Product Manager (CPM) inspired me to learn more about software.
+          <br /><br />
+          After the a month I was hooked as a software engineer with a passion for building products.
+          My background in hospitality, food production and agriculture provides a unique blend
           of perspectives that enhance my work.</p>
         <p>Through my previous work I developed a good business sense, critical thinking, as well grit, and a knack for negotiating and communication.
           <br />
@@ -24,11 +25,12 @@ export default function About() {
         <p>
           As for human languages - I am fluent in English, native in Bulgarian, and I recently took up Spanish. In my spare time, I ride snowmobiles, hike, kitesurf and dabble in real estate. <br />
           <br />
-          My BSc is in Business Studies from City University, MBA from ESADE and I did a 5 months entrepreneurship stint at Babson College
+          My BSc is in Business Studies from City University, MBA from ESADE and I did a 5 months entrepreneurship stint at Babson College.
+
         </p>
       </div>
       <img className="logo" alt="Dimitar Vidolov logo" src={dvLogo} />
-      <div className="techSkillsDiv">
+      {/* <div className="techSkillsDiv">
 
         {skillsData && skillsData.map((skill) => {
           return (
@@ -38,7 +40,7 @@ export default function About() {
               </p>
             </div>
           )
-        })}</div>
+        })}</div> */}
     </div>
 
   )

@@ -3,7 +3,7 @@ import "./Landing.css";
 import projectsData from "../data/data";
 import Project from "./Project";
 import Video from "./VideoPlayer";
-
+import coverArt from "../assets/coverArt.webp"
 import skillsData from "../data/skillsData";
 import avatartImage from "../assets/avatar-image.webp"
 import { Link } from "react-router-dom";
@@ -14,8 +14,10 @@ export default function Landing() {
 
   return (
     <>
+      <br />
       <div className="landingPage">
         <section id="section0">
+        <img className="coverart" alt="coverart" src={coverArt} />
           <div className="avatar">
             <img className="avatar-image" src={avatartImage} alt="dimitar vidolov's logo" />
             <div className="avatar-text">
@@ -24,7 +26,8 @@ export default function Landing() {
                 Recently, I completed General Assembly&apos;s
                 Immersive Software Engineering boot camp,
                 where I built 4 projects you can see below.
-              </p><br />
+              </p>
+              <p>I am also a Certified Product Manager with Product School and hold a MBA from ESADE.</p>
               <div className="buttonGroup">
                 <NavHashLink smooth className="button" to="/#section2">
                   See Projects

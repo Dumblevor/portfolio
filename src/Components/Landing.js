@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import dvLogo from '../assets/logos/dv-logo.webp';
 import { NavHashLink } from 'react-router-hash-link';
 
+
 export default function Landing() {
 
   return (
@@ -75,6 +76,7 @@ export default function Landing() {
           <img className="logo" alt="Dimitar Vidolov logo" src={dvLogo} />
         </section>
       </div>
+      
     </>
   )
 }

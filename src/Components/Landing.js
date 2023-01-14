@@ -2,7 +2,6 @@ import React from "react"
 import "./Landing.css";
 import projectsData from "../data/data";
 import Project from "./Project";
-import Video from "./VideoPlayer";
 import coverArt from "../assets/coverArt.webp"
 import skillsData from "../data/skillsData";
 import avatartImage from "../assets/avatar-image.webp"

@@ -226,5 +226,6 @@ section {
     margin-top: 2em;
     max-width: 55%;
     margin-right: 0px;
+    max-height: 30vh;
   }
 }

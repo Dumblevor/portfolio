@@ -11,6 +11,8 @@ import expressLogo from '../assets/logos/express.webp';
 import djangoLogo from '../assets/logos/django.webp';
 import github from '../assets/logos/github.webp';
 import jira from '../assets/logos/jira.webp';
+import chai from '../assets/logos/chailogo.webp';
+import mocha from '../assets/logos/mochalogo.webp';
 
 const skillsData = [
   {
@@ -28,6 +30,32 @@ const skillsData = [
   {
     name: "MongoDB",
     source: mongoDBLogo
+  },
+  
+  {
+    name: "Chai",
+    source:  chai 
+  },
+  {
+    name: "Mocha",
+    source:  mocha 
+  },
+  
+  {
+    name: "Django.js",
+    source:  djangoLogo 
+  },
+  {
+    name: "Node.js",
+    source:  nodejsLogo 
+  },
+  {
+    name: "GitHub",
+    source:  github 
+  },
+  {
+    name: "Jira",
+    source:  jira 
   },
   {
     name: "Python",
@@ -49,22 +77,6 @@ const skillsData = [
     name: "HTML",
     source:  htmLogo 
   },
-  {
-    name: "Django.js",
-    source:  djangoLogo 
-  },
-  {
-    name: "Node.js",
-    source:  nodejsLogo 
-  },
-  {
-    name: "GitHub",
-    source:  github 
-  },
-  {
-    name: "Jira",
-    source:  jira 
-  }
 ]
 
 export default skillsData

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css";
 import { NavHashLink } from 'react-router-hash-link';
 import dvLogo from '../assets/logos/dv-logo.webp';

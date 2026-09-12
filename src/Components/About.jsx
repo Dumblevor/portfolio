@@ -1,4 +1,3 @@
-import React from "react";
 import coverArt from "../assets/coverArt.webp"
 import "./About.css";
 import dvLogo from '../assets/logos/dv-logo.webp';

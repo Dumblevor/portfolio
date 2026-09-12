@@ -1,0 +1,8 @@
+# Vite 8 requires Node ^20.19 || >=22.12; pin it so the build does not depend
+# on whatever default the Netlify UI was left on in the create-react-app era.
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "22"

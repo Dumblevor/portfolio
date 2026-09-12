@@ -1,4 +1,3 @@
-import React from "react"
 import "./Landing.css";
 import projectsData from "../data/data";
 import Project from "./Project";

@@ -23,9 +23,10 @@ export default function Landing() {
             <div className="avatar-text">
               <h2>Hi, I&apos;m Dimitar Vidolov</h2>
               <p>I like tinkering with software and kitesurfing.
-                Recently, I completed General Assembly&apos;s
-                Immersive Software Engineering boot camp,
-                where I built 4 projects you can see below.
+                These days I design, build and ship my own products &mdash;
+                Vkushty and Moneyflow are both live. Before that I completed
+                General Assembly&apos;s Immersive Software Engineering boot camp,
+                where I built the four projects further below.
               </p>
               <p>I am also a Certified Product Manager with Product School and hold a MBA from ESADE.</p>
               <div className="buttonGroup">

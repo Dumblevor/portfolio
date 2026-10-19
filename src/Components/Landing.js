@@ -24,11 +24,14 @@ export default function Landing() {
               <h2>Hi, I&apos;m Dimitar Vidolov</h2>
               <p>I like tinkering with software and kitesurfing.
                 These days I design, build and ship my own products &mdash;
-                Vkushty and Moneyflow are both live. Before that I completed
-                General Assembly&apos;s Immersive Software Engineering boot camp,
-                where I built the four projects further below.
+                both <a href="https://vkushty.com">Vkushty</a> and <a href="https://playmoneyflow.com">Moneyflow</a> are live.
+                Before them I built <a href="https://aimylogo.com">AImyLogo.com</a> and the
+                profitable <a href="https://aipetphotos.com">AIPetPhotos.com</a>, an AI pet portrait service.
+                I started out on General Assembly&apos;s Immersive Software Engineering boot camp,
+                where I built the last four projects below.
               </p>
-              <p>I am also a Certified Product Manager with Product School and hold a MBA from ESADE.</p>
+              <p>I am also a Certified Product Manager with Product School and hold an MBA from ESADE,
+                as well as a BSc in Business from City University of London.</p>
               <div className="buttonGroup">
                 <NavHashLink smooth className="button" to="/#section2">
                   See Projects

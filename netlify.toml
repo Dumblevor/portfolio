@@ -1,0 +1,9 @@
+# Netlify builds this site from git. Pin Node here because the site's
+# Netlify settings date from 2022: on Node 16, `npm ci` fails while
+# installing netlify-cli 27, so no build after the bump could deploy.
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "22"

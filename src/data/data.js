@@ -4,6 +4,8 @@ import screen3 from '../assets/screens/screen3.webp';
 import screen4 from '../assets/screens/screen4.webp';
 import vkushtyScreen from '../assets/screens/vkushty.webp';
 import moneyflowScreen from '../assets/screens/moneyflow.webp';
+import aiMyLogoScreen from '../assets/screens/aimylogo.webp';
+import aiPetPhotosScreen from '../assets/screens/aipetphotos.webp';
 
 const projectsData = [
   {
@@ -25,6 +27,26 @@ const projectsData = [
     repoLink: "",
     screen: moneyflowScreen,
     id: 5,
+  },
+  {
+    name: "Solo Project: AI My Logo | aimylogo.com",
+    type: "AI Logo Generator with Stylized Text",
+    logoLink: "",
+    description: "A web app that enables users to generate any logo in 2.9s for $0.12 - perfect for any small business or service looking to have amazing branding and almost no cost. Users can enjoy ready made templates, remix other users logos or prompt their own. Uses Vite & MERN.",
+    deploymentLink: "https://aimylogo.com",
+    repoLink: "",
+    screen: aiMyLogoScreen,
+    id: 8,
+  },
+  {
+    name: "Solo Project: AI Pet Photos | aipetphotos.com",
+    type: "Auto AI Pet Portraits Generator",
+    logoLink: "",
+    description: "Using React & Node.js, together with several AI models, I created a web app that allows users to upload images of their pet and get a 20+ portraits. The software works on any cat and dog breed, providing 2K hyper realistic images. The project was to be completed individually within 60 days, part-time, and has paying users.",
+    deploymentLink: "https://aipetphotos.com",
+    repoLink: "",
+    screen: aiPetPhotosScreen,
+    id: 7,
   },
   {
     name: "Solo Project: Firesell | @ General Assembly",
